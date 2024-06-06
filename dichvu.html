@@ -1,0 +1,206 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dịch vụ</title>
+    <link rel="stylesheet" href="dichvu.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Roboto+Slab:wght@100..900&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="menu-page">
+        <div class="menu">
+            <nav>
+                <ul class="menu1">
+                    <li><a href="Trangchu.html">Trang chủ</a></li>
+                    <li><a href="dichvu.html">Dịch vụ</a></li>
+                    <li><a href="cua-hang.html">Cửa hàng</a></li>
+                    <li><a href="coffeeoggiong.html">Cà phê của Gióng</a></li>
+                    <li><a href="tuyendung.html">Tuyển dụng</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="search-container">
+            <input class="search" type="text" placeholder="tìm kiếm....">
+            <i id="search-icon" class="fas fa-search"></i>
+        </div>
+        <div class="button-loginandout">
+            <button id="loginButton" class="log-in"><a class="link" href="dangnhap.html">Đăng nhập</a></button>
+            <button class="register"><a class="link" href="dangky.html">Đăng ký</a></button>
+        </div>
+    </div>
+    <div class="sv">DỊCH VỤ</div>
+    <div class="service-officer">
+        <div class="sv1">
+            <div class="namesv">THUÊ PHÒNG HỌP</div>
+            <div class="textsv">Dịch vụ cho thuê phòng họp mang lại không gian riêng tư cho những ngày sum họp bạn bè,
+                người thân và là nguồn cảm hứng dồi dào trong những buổi làm việc nhóm</div>
+            <div class="buttonsv1"><button class="button-to-meeting" onclick="scrollToGiongGia()">Click để
+                    xem</button>
+            </div>
+        </div>
+        <div class="sv2">
+            <div class="namesv">THUÊ KHÔNG GIAN TỔ CHỨC EVENT/WORKSHOP</div>
+            <div class="textsv">Dịch vụ cho thuê không gian tổ chức Event/Workshop tại các chi nhánh của Gióng.</div>
+            <div class="buttonsv2"><button class="button-to-event" onclick="scrollToEvenPrice()">Click để xem</button>
+            </div>
+        </div>
+    </div>
+    <div class="meeting-price">
+
+
+        <div class="about-meeting-price">
+            <div class="heading-meeting">
+                <h1 class="name-price-meeting">BẢNG GIÁ DỊCH VỤ THUÊ PHÒNG HỌP</h1>
+                <p class="place-price-meeting">Dịch vụ phòng họp chỉ có sẵn tại chi nhánh Gióng - 180 Lý Chính Thắng,
+                    Q.3,
+                    TP.
+                    HCM</p>
+            </div>
+            <div class="giong-gia">
+                <div class="image-phonghopprice"><img class="phonghopprice" src="phonghopprice.png" alt=""></div>
+                <div class="content-meeting">
+                    <div class="trailer">
+                        <h3 class="name-room">Phòng “Gióng Giả"</h3>
+                        <p class="trailer-room">Gióng muốn truyền tải tinh thần dám nghĩ, dám làm - “Gióng Trống Mở Cờ"
+                            thông qua không gian tiện
+                            nghi và đậm chất Việt trong những ngày hội họp để tiên quyết sự thành công của bạn. Phòng
+                            “Gióng
+                            Giả" rộng 16m2, phù hợp cho nhóm từ 10 đến 15 thành viên sinh hoạt.</p>
+                    </div>
+                    <div class="price">
+                        <div class="for-hours">
+                            <h4 class="first-price">Theo giờ</h4>
+                            <p class="then-fist-price">- Tiếng sinh hoạt đầu tiên: 500.000đ<br>- Tiếng thứ hai trở đi:
+                                300.000đ</p>
+                        </div>
+                        <div class="half-day">
+                            <h4 class="first-price">Combo “Nửa Ngày"</h4>
+                            <p class="then-fist-price">- Sử dụng phòng họp riêng 04 tiếng<br>
+                                - Miễn phí nước lọc<br>
+                                - 01 bình lớn (Coldbrew hoặc Trà) <br>
+                                - Giá: 1.400.000đ</p>
+                        </div>
+                        <div class="save-price">
+                            <h4 class="first-price">
+                                Combo “Tiết Kiệm"</h4>
+                            <p class="then-fist-price">- Sử dụng phòng họp riêng 08 tiếng<br>
+                                - Miễn phí nước lọc<br>
+                                - 02 bình lớn (Coldbrew hoặc Trà) cho 20 người <br>
+                                - Giá: 2.600.000đ</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- doan2 -->
+
+            <div class="nangcan">
+                <div class="image-phonghopprice"><img class="phonghopprice" src="phonghopprice2.png" alt=""></div>
+                <div class="content-meeting">
+                    <div class="trailer">
+                        <h3 class="name-room">Phòng “Năng Cán”</h3>
+                        <p class="trailer-room">Không gian phòng họp 21m2 có sức chứa lên đến 30 người với thông điệp
+                            “Năng
+                            Cán Dĩ Đắc Thực" - đề cao tính kiên trì và sự cố gắng. Tại đây, Gióng mong được tiếp sức bạn
+                            khi
+                            làm việc hoặc sẻ chia những khoảnh khắc tuyệt vời.</p>
+                    </div>
+                    <div class="price">
+                        <div class="for-hours">
+                            <h4 class="first-price">Theo giờ</h4>
+                            <p class="then-fist-price">- Tiếng sinh hoạt đầu tiên: 700.000đ<br>- Tiếng thứ hai trở đi:
+                                450.000đ</p>
+                        </div>
+                        <div class="half-day">
+                            <h4 class="first-price">Combo “Nửa Ngày"</h4>
+                            <p class="then-fist-price">- Sử dụng phòng họp riêng 04 tiếng<br>
+                                - Miễn phí nước lọc<br>
+                                - 02 bình lớn (Coldbrew hoặc Trà) <br>
+                                - Giá: 1.950.000đ</p>
+                        </div>
+                        <div class="save-price">
+                            <h4 class="first-price">
+                                Combo “Tiết Kiệm"</h4>
+                            <p class="then-fist-price">- Sử dụng phòng họp riêng 08 tiếng<br>
+                                - Miễn phí nước lọc<br>
+                                - 04 bình lớn (Coldbrew hoặc Trà) cho 20 người <br>
+                                - Giá: 3.600.000đ</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <button class="button-to-form" onclick="scrollToBooking()"> ĐĂNG KÝ NGAY </button>
+        </div>
+
+    </div>
+    <div class="event-price">
+        <h1 class="name-price-meeting">BẢNG GIÁ DỊCH VỤ THUÊ KHÔNG GIAN TỔ CHỨC EVENT/WORKSHOP</h1>
+        <p class="place-price-meeting">Liên hệ trực tiếp với Gióng để nhận báo giá thuê không gian tổ chức
+            event/workshop tại các chi nhánh.<br>
+            E-mail: eco@ecogiong.com<br>
+            Số điện thoại: (+84) 28 36222084</p>
+        <img class="eventgiongimage" src="eventgiong.jpg" alt="">
+
+    </div>
+    <!-- <form action="">------------------------------------/form> -->
+    <div class="booking-form">
+        <h2>ĐẶT NGAY PHÒNG HỌP</h2>
+        <form id="bookingForm">
+            <label for="name">Họ và Tên:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="phone">Số Điện Thoại:</label>
+            <input type="text" id="phone" name="phone" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label>Đối Tượng:</label>
+            <select id="audience" name="audience" required>
+                <option value="gia đình">Gia Đình</option>
+                <option value="bạn bè">Bạn Bè</option>
+                <option value="công ty">Công Ty</option>
+                <option value="khác">Khác</option>
+            </select>
+
+            <label>Loại Phòng:</label>
+            <select id="roomType" name="roomType" required>
+                <option value="giong gia">Gióng Giả</option>
+                <option value="nang can">Năng Cán</option>
+            </select>
+
+            <label>Thời Gian Thuê (Giờ):</label>
+            <select id="hours" name="hours" required>
+                <option value="1">1 Tiếng</option>
+                <option value="2">2 Tiếng</option>
+                <option value="3">3 Tiếng</option>
+                <option value="4">4 Tiếng</option>
+                <option value="5">5 Tiếng</option>
+                <option value="6">6 Tiếng</option>
+                <option value="7">7 Tiếng</option>
+                <option value="8">8 Tiếng</option>
+            </select>
+
+            <label for="estimatedPrice">Giá Tiền Dự Kiến:</label>
+            <input type="text" id="estimatedPrice" name="estimatedPrice" readonly>
+
+            <button type="submit">Xác Nhận</button>
+        </form>
+    </div>
+
+
+    <!-- form------------------------------------------------------------- -->
+    <script src="dichvu.js"></script>
+</body>
+
+</html>

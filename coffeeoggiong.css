@@ -1,0 +1,211 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto Slab;
+}
+
+.menu-page {
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #8a181a;
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+nav ul li {
+    display: inline;
+
+}
+
+nav ul li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: rgba(241, 239, 239, 0.603);
+
+}
+
+.search {
+    width: 300px;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+
+}
+
+.search-container {
+    position: relative;
+}
+
+.search-container i {
+    position: absolute;
+    left: 5px;
+    top: 8px;
+
+}
+
+.search-container input[type="text"] {
+    padding: 0 0 0 30px
+}
+
+/* css-button-loginout */
+.log-in,
+.register {
+
+    border-radius: 25%;
+    width: 113px;
+    height: 36px;
+    font-weight: 700;
+    background-color: burlywood;
+}
+
+.link {
+    color: black;
+    text-decoration: none;
+}
+
+.button-loginandout {
+    padding-right: 80px;
+
+}
+
+.coffee-of-giong {
+    background-image: url(coffee-of-giong\(2\).jpg);
+    background-size: cover;
+    height: -webkit-fill-available;
+}
+
+.paragraph-block {
+    height: fit-content;
+    width: 40%;
+    color: white;
+    padding: 10px;
+    margin-left: 80px;
+}
+
+.paragraph-block h1 {
+    font-size: xxx-large;
+}
+
+.paragraph-block p {
+    font-size: larger;
+    line-height: 1.5;
+}
+
+.block2 {
+    text-align: center;
+}
+
+.block2 h1 {
+    color: #8a181a;
+    font-size: xxx-large;
+}
+
+.block2 p {
+    font-size: x-large;
+}
+
+.block3 {
+    display: flex;
+    gap: 2%;
+    justify-content: center;
+}
+
+.block3-robusta,
+.block3-classic,
+.block3-arabica {
+    width: 30%;
+    text-align: center;
+
+}
+
+
+.block3-robusta img {
+    width: -webkit-fill-available;
+}
+
+.block3-robusta h3 {
+    color: #8a181a;
+}
+
+.block3-classic img {
+    width: -webkit-fill-available;
+}
+
+.block3-classic h3 {
+    color: #8a181a;
+}
+
+.block3-arabica img {
+    width: -webkit-fill-available;
+}
+
+.block3-arabica h3 {
+    color: #8a181a;
+}
+
+.block3-robusta img,
+.block3-classic img,
+.block3-arabica img {
+    transition: transform 0.3s;
+
+}
+
+.block3-robusta img:hover,
+.block3-classic img:hover,
+.block3-arabica img:hover {
+    transform: scale(1.1);
+
+}
+
+.block4 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.block4-robusta {
+    width: 40%;
+    background-color: #8a181a;
+}
+
+.block4-robusta h3 {
+    text-align: center;
+    color: #ffd10d;
+}
+
+.block4-arabica {
+    width: 40%;
+    background-color: #8a181a;
+}
+
+.block4-arabica h3 {
+    text-align: center;
+    color: #ffd10d;
+}
+
+.block4-1-2 {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.block4-image {
+    width: 25%;
+}

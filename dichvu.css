@@ -1,0 +1,266 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto Slab;
+}
+
+.menu-page {
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #8a181a;
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+nav ul li {
+    display: inline;
+
+}
+
+nav ul li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: rgba(241, 239, 239, 0.603);
+
+}
+
+.search {
+    width: 300px;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+
+}
+
+.search-container {
+    position: relative;
+}
+
+.search-container i {
+    position: absolute;
+    left: 5px;
+    top: 8px;
+
+}
+
+.search-container input[type="text"] {
+    padding: 0 0 0 30px
+}
+
+/* css-button-loginout */
+.log-in,
+.register {
+
+    border-radius: 25%;
+    width: 113px;
+    height: 36px;
+    font-weight: 700;
+    background-color: burlywood;
+}
+
+.link {
+    color: black;
+    text-decoration: none;
+}
+
+.button-loginandout {
+    padding-right: 80px;
+
+}
+
+.sv {
+    display: flex;
+    justify-content: space-around;
+    height: 18%;
+    color: #8a181a;
+    font-size: xxx-large;
+    font-weight: 700;
+    font-family: Roboto Slab;
+    align-items: center;
+}
+
+.service-officer {
+    display: flex;
+    height: 65%;
+}
+
+.sv1 {
+    background-image: url(phonghop1.png);
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sv2 {
+    background-image: url(even.png);
+
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.namesv {
+    color: yellow;
+    font-size: larger;
+    font-weight: 700;
+}
+
+.textsv {
+    color: white;
+    margin: 3%
+}
+
+.button-to-meeting,
+.button-to-event {
+    font-weight: 600;
+    font-size: 16px;
+    background-color: yellow;
+    width: 173%;
+    height: 153%;
+    border-radius: 10px;
+    padding-left: -7px;
+}
+
+.buttonsv1,
+.buttonsv2 {
+    margin-left: -12%;
+}
+
+.meeting-price {
+    margin: 3% 3% 0 3%;
+    padding-top: 10px;
+}
+
+.name-price-meeting {
+    color: #8a181a;
+    font-weight: 900;
+}
+
+.place-price-meeting {
+    font-weight: 350;
+    font-size: 20px;
+}
+
+.heading-meeting {
+    line-height: 0.5;
+    margin-top: 30px;
+}
+
+.price {
+    display: flex;
+    gap: 10px;
+}
+
+.image-phonghopprice {
+    width: 20%;
+    height: 50%;
+    float: left;
+    margin-right: 10%;
+}
+
+.phonghopprice {
+    width: 100%;
+}
+
+.trailer-room {
+    line-height: 1.5em;
+}
+
+.then-fist-price {
+    line-height: 1.5em;
+    color: #8a181a;
+}
+
+.first-price {
+    color: #8a181a;
+}
+
+.giong-gia {
+    padding-bottom: 20px;
+}
+
+.event-price {
+    margin: 3% 3% 0 3%;
+    padding-top: 10px;
+}
+
+.eventgiongimage {
+    width: -webkit-fill-available;
+}
+
+/* ------------------------------------------------- */
+
+.booking-form {
+    margin: 3% 3% 0 3%;
+    padding: 20px;
+    border: 1px solid #ddd;
+    width: auto;
+    background-color: #7369699c;
+}
+
+.booking-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.booking-form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.booking-form input,
+.booking-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.booking-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #8a181a;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.booking-form button:hover {
+    background-color: #0056b3;
+}
+
+.button-to-form {
+    margin: 3% 11% 0;
+    font-size: smaller;
+    background-color: yellow;
+    width: 20%;
+    height: 7%;
+    border-radius: 20px;
+    font-weight: bold;
+}

@@ -1,0 +1,392 @@
+body {
+
+    margin: 0;
+    padding: 0;
+}
+
+.menu-page {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #8a181a;
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+nav ul li {
+    display: inline;
+
+}
+
+nav ul li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: rgba(241, 239, 239, 0.603);
+
+}
+
+.search {
+    width: 300px;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+
+}
+
+.search-container {
+    position: relative;
+}
+
+.search-container i {
+    position: absolute;
+    left: 5px;
+    top: 8px;
+
+}
+
+.search-container input[type="text"] {
+    padding: 0 0 0 30px
+}
+
+/* css-button-loginout */
+.log-in,
+.register {
+
+    border-radius: 25%;
+    width: 113px;
+    height: 36px;
+    font-weight: 700;
+    background-color: burlywood;
+}
+
+.link {
+    color: black;
+    text-decoration: none;
+}
+
+.button-loginandout {
+    padding-right: 80px;
+
+}
+
+.heading-1 {
+    margin-top: 46px;
+    height: 431px;
+    position: relative;
+    background-image: url(coffe3.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.heading-1-text {
+    width: 712px;
+    position: absolute;
+    left: 8%;
+    top: 13%;
+    height: 274px;
+    color: #fff;
+    font-family: Roboto Slab;
+
+}
+
+.spaner-heading {
+    border-top: 4px solid orange;
+    border-bottom: 4px solid orange;
+    margin-top: 0px;
+    padding: -2px 0 0 0;
+    height: 66px;
+    width: 233px;
+    font-size: 50px;
+}
+
+.text-2 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.text-3 {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+/* https://fontawesome.com/icons/chevron-right?f=classic&s=solid */
+.part-servies {
+    background-color: #8a181a;
+    height: 700px;
+}
+
+.part-servies img {
+    width: 550px;
+    height: 600px;
+    object-fit: cover;
+
+}
+
+.slide1 {
+
+    width: 550px;
+    height: 600px;
+    float: left;
+    margin: 44px 0 44px 93px;
+    position: relative;
+    overflow: hidden;
+}
+
+.image-1-slide-1,
+img {
+    position: absolute;
+}
+
+
+.slide2 {
+
+    width: 603px;
+    height: 600px;
+    float: right;
+    margin: 44px 44px 44px 0;
+    position: relative;
+
+}
+
+.next-btn {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.next-btn:hover {
+    background-color: rgba(158, 147, 147, 0.37);
+}
+
+.fade-in-right {
+    animation: fadeInRight 1s forwards;
+}
+
+@keyframes fadeInRight {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+.block img {
+    width: 528px;
+    height: 600px;
+}
+
+.text-in-block {
+    color: white;
+    font-family: 'Roboto Slab';
+    width: 400px;
+    position: absolute;
+    right: 157px;
+    top: 20px;
+
+
+}
+
+.text-in-block h1 {
+    font-size: 55px;
+}
+
+.text-in-block p {
+
+    font-size: 24px;
+}
+
+.text-in-block a {
+    font-size: 23px;
+    background: none;
+    padding: 10px;
+    color: white;
+    border-top: 3px solid;
+    border-bottom: 3px solid;
+    text-decoration: none;
+}
+
+.text-in-block .cup-coffee img {
+    width: 200px;
+    height: 282px;
+    position: absolute;
+    top: 291px;
+    right: 0px;
+
+}
+
+/* branch-css */
+.branch {
+    justify-content: space-around;
+    background-color: #f8e278;
+    height: 700px;
+    display: flex;
+    padding-top: 70px;
+
+}
+
+.branch-text {
+
+    width: 528px;
+    height: 600px;
+}
+
+.branch-text-content {
+    padding: 43px;
+}
+
+.branch-text-content,
+h1,
+p,
+a {
+    font-family: 'Roboto Slab';
+}
+
+.branch-text-1,
+.branch-text-2 {
+    color: #310000;
+}
+
+.branch-text-content a {
+    border-bottom: 2px solid #310000;
+    border-top: 2px solid #310000;
+    text-decoration: none;
+    font-weight: 350;
+    font-size: xx-large;
+    color: #310000;
+}
+
+.branch-text-content p {
+    font-weight: 350;
+    font-size: xx-large;
+}
+
+.branch-text img {
+    height: 600px;
+    width: 576px;
+
+}
+
+.branch-image {
+
+    width: 528px;
+    height: 600px;
+}
+
+.branch-image img {
+    height: 600px;
+    width: 576px;
+    opacity: 1;
+    transition: opacity 1s ease;
+
+}
+
+.about-coffee {
+    height: 600px;
+    background-color: #8a181a;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+
+}
+
+.image-in-aboutcoffee img {
+    height: 600px;
+    width: 576px;
+}
+
+.text-abcf {
+    height: 600px;
+    width: 576px;
+
+}
+
+.text-abcf,
+h1,
+p,
+a {
+    color: #fff;
+    font-family: 'Roboto Slab';
+}
+
+.text-abcf img {
+    font-family: 'Roboto Slab';
+    height: 600px;
+    width: 576px;
+}
+
+.textabcf {
+    margin: 144px 50px;
+
+}
+
+.textabcf a {
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    font-size: xx-large;
+    text-decoration: none;
+}
+
+.textabcf h1 {
+    font-size: xxx-large;
+}
+
+.textabcf p {
+    font-size: x-large;
+    font-weight: 300;
+}
+
+.about-us {
+    background-color: #110f0f;
+    height: auto;
+    width: auto;
+    margin-top: -20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-us h2 {
+    color: white;
+    font-family: 'Roboto Slab';
+}
+
+.about-us h4 {
+    color: #dba758;
+    font-family: 'Roboto Slab';
+    font-size: larger;
+}
+
+.about-us p {
+    line-height: 1.8
+}
+
+.about-us a {
+    text-decoration: none;
+    color: #dba758;
+}

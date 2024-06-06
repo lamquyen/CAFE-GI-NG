@@ -1,0 +1,66 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="dangky.css">
+</head>
+
+<body>
+    <div class="menu-page">
+        <div class="menu">
+            <nav>
+                <ul class="menu1">
+                    <li><a href="Trangchu.html">Trang chủ</a></li>
+                    <li><a href="dichvu.html">Dịch vụ</a></li>
+                    <li><a href="#">Sản phẩm</a></li>
+                    <li><a href="#">Giới thiệu</a></li>
+                    <li><a href="#">Liên hệ</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="search-container">
+            <input class="search" type="text" placeholder="tìm kiếm....">
+            <i id="search-icon" class="fas fa-search"></i>
+        </div>
+        <div class="button-loginandout">
+            <button class="log-in">Đăng nhập</button>
+            <button class="register">Đăng ký</button>
+        </div>
+    </div>
+    <div class="form-container">
+        <h2>Đăng ký</h2>
+        <form id="registrationForm">
+            <label for="fullname">Tên</label>
+            <input type="text" id="fullname" name="fullname" required>
+
+            <label for="gender">Giới tính</label>
+            <select id="gender" name="gender" required>
+                <option value="">Chọn</option>
+                <option value="male">Nam</option>
+                <option value="female">Nữ</option>
+                <option value="other">Khác</option>
+            </select>
+
+            <label for="birthday">ngày Sinh</label>
+            <input type="date" id="birthday" name="birthday" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Mật khẩu</label>
+            <input type="password" id="password" name="password" required>
+            <small id="passwordHelp" class="password-help">Nhập tối thiểu 8 ký tự</small>
+
+            <label for="confirmPassword">Nhập lại mật khẩu</label>
+            <input type="password" id="confirmPassword" name="confirmPassword" required>
+
+            <button type="submit" id="registerBtn" disabled>Đăng ký</button>
+            <script src="dangky.js"></script>
+        </form>
+    </div>
+
+</body>
+
+</html>
